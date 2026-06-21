@@ -1,0 +1,66 @@
+[
+  {
+    "task": "detection",
+    "output_image": "data/captures/demo_detection.jpg",
+    "num_records": 5,
+    "event_type": "DETECTION_RESULT",
+    "severity": "WARNING",
+    "elapsed_ms": 16.28
+  },
+  {
+    "task": "tracking_counting",
+    "output_image": "data/captures/demo_tracking_counting.jpg",
+    "num_records": 4,
+    "event_type": "TRACKING_COUNTING_RESULT",
+    "severity": "NORMAL",
+    "elapsed_ms": 3.22
+  },
+  {
+    "task": "pose_landmark",
+    "output_image": "data/captures/demo_pose_landmark.jpg",
+    "num_records": 11,
+    "event_type": "POSE_RESULT",
+    "severity": "NORMAL",
+    "elapsed_ms": 0.75
+  },
+  {
+    "task": "hand_gesture",
+    "output_image": "data/captures/demo_hand_gesture.jpg",
+    "num_records": 6,
+    "event_type": "HAND_GESTURE_RESULT",
+    "severity": "NORMAL",
+    "elapsed_ms": 0.79
+  },
+  {
+    "task": "face_landmark",
+    "output_image": "data/captures/demo_face_landmark.jpg",
+    "num_records": 6,
+    "event_type": "FACE_LANDMARK_RESULT",
+    "severity": "NORMAL",
+    "elapsed_ms": 0.72
+  },
+  {
+    "task": "ocr",
+    "output_image": "data/captures/demo_ocr.jpg",
+    "num_records": 1,
+    "event_type": "OCR_RESULT",
+    "severity": "NORMAL",
+    "elapsed_ms": 0.76
+  },
+  {
+    "task": "segmentation",
+    "output_image": "data/captures/demo_segmentation.jpg",
+    "num_records": 1,
+    "event_type": "SEGMENTATION_RESULT",
+    "severity": "NORMAL",
+    "elapsed_ms": 8.57
+  },
+  {
+    "task": "opencv_motion",
+    "output_image": "data/captures/demo_opencv_motion.jpg",
+    "num_records": 0,
+    "event_type": "MOTION_INITIALIZED",
+    "severity": "NORMAL",
+    "elapsed_ms": 3.22
+  }
+]
